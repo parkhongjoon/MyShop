@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyShop</title>
+    <!--Mobile-->
+    <link rel="apple-touch-icon" sizes="57x57" href="images/708873bbbe951c906906202edb040adc.ico/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/708873bbbe951c906906202edb040adc.ico//apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="images/708873bbbe951c906906202edb040adc.ico//android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/708873bbbe951c906906202edb040adc.ico//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="images/708873bbbe951c906906202edb040adc.ico//favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/708873bbbe951c906906202edb040adc.ico//favicon-16x16.png">
+
+    <link rel="icon" type="image/x-icon" href="images/708873bbbe951c906906202edb040adc.ico/favicon.ico">
+    <meta name="description" content="java를 이용한 쇼핑몰 연습">
+    <meta name="keywords" content="html, css, javascript, bootstrap, java">
+    <meta name="author" content="Hong Joon">
+    <!--stylesheet-->
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.1.0/remixicon.css" integrity="sha512-dUOcWaHA4sUKJgO7lxAQ0ugZiWjiDraYNeNJeRKGOIpEq4vroj1DpKcS3jP0K4Js4v6bXk31AAxAxaYt3Oi9xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="Js/jquery.min.js"></script>
+    <script src="Js/popper.min.js"></script>
+    <script src="Js/bootstrap.min.js"></script>
+    <script src="Js/script.js"></script>
+
+</head>
+<body>
+<!--HEADER-->
+<header>
+    <div class="container-max">
+        <div class="row flex-column">
+            <nav class="top d-flex justify-content-between">
+                <ul class="nav">
+                    <li><a href="#">login</a></li>
+                    <li><a href="#">join us</a>
+                    <div class="msgbox">
+                        +10,000 p
+                    </div>
+                    </li>
+                    <li><a href="#">cart <span>0</span></a></li>
+                    <li><a href="#">order</a></li>
+                    <li class="mem"><a href="#">my page</a>
+                        <ul class="subnav">
+                            <li><a href="#">관심상품</a></li>
+                            <li><a href="#">주문조회</a></li>
+                            <li><a href="#">적립금</a></li>
+                            <li><a href="#">예치금</a></li>
+                            <li><a href="#">마이쿠폰</a></li>
+                            <li><a href="#">내가쓴글</a></li>
+                        </ul>
+                    </li>
+                    <li class="mem"><a href="#">community</a>
+                        <ul class="subnav">
+                            <li><a href="#">notice</a></li>
+                            <li><a href="#">q&a</a></li>
+                            <li><a href="#">review</a></li>
+                            <li><a href="#">event</a></li>
+                            <li><a href="#">자주묻는질문</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <ul class="right-nav nav">
+                    <li><a href="#" class="facebook"><i class="ri-facebook-fill"></i></a></li>
+                    <li><a href="#" class="instagram"><i class="ri-instagram-line"></i></a></li>
+                    <li><a href="#" class="kakao"><i class="ri-kakao-talk-fill"></i></a></li>
+                    <li><a href="#" class="youtube"><i class="ri-youtube-fill"></i></a></li>
+                    <li>
+                        <form nave="searchform" class="searchform" id="searchform">
+                            <input type="search" name="search" class="search" placeholder="남다른 고퀄리티 쇼밍폴!👍">
+                            <button type="button" class="btn btn-link btn-search"><i class="ri-search-line"></i></button>
+                        </form>
+                    </li>
+                </ul>
+            </nav>
+            <h1 class="brand">MY SHOPPING MALL</h1>
+            <nav class="global"></nav>
+        </div>
+    </div>
+</header>
+</body>
+</html>

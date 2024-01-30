@@ -1,0 +1,15 @@
+(function (CAFE24API) {
+  window.DPromotionCafe24 = CAFE24API;
+  const className = "dpromotion-area";
+  document.querySelectorAll(`.${className}`).forEach((el) => {
+    const appId = el.dataset.id;
+    const script = document.createElement("script");
+    script.src = `https://play.dpromotion.io/play/${appId}?use_type=script`;
+    el.appendChild(script);
+  });
+})(
+  CAFE24API.init({
+    client_id: "liBjZkLuAxKmMmRu4CLrgA",
+    version: "2022-06-01",
+  })
+);
